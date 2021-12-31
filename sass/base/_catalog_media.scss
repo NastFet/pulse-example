@@ -1,0 +1,22 @@
+@media (max-width: 992px) {
+    .catalog{
+        &__content{
+            justify-content: center;
+        }
+    }
+}
+@media (max-width: 767px){
+    .catalog{
+        &__tabs{
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+    }
+}
+@media (max-width: 575px){
+    .catalog{
+        &__tab{
+            font-size: 10px;
+        }
+    }
+}

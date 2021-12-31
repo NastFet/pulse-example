@@ -1,0 +1,37 @@
+@import 'base/variables';
+@import 'base/animations';
+
+*{
+    font-family: 'Museo Sans Cyrl', sans-serif;
+}
+
+.container {
+    position: relative;
+    max-width: 950px;
+    margin: 0 auto;
+}
+
+@import 'blocks/promo';
+@import 'blocks/header';
+@import 'blocks/buttons';
+@import 'blocks/reason';
+@import 'blocks/consutation';
+@import 'blocks/titles';
+@import 'blocks/forms';
+@import 'blocks/carousel';
+@import 'blocks/catalog';
+@import 'blocks/reviews';
+@import 'blocks/footer';
+@import 'blocks/modal';
+@import 'blocks/pageup';
+@import 'base/header_media';
+@import 'base/promo_media';
+@import 'base/reason_media';
+@import 'base/consultation_media';
+@import 'base/forms_media';
+@import 'base/title_media';
+@import 'base/buttons_media';
+@import 'base/reviews_media';
+@import 'base/carousel_media';
+@import 'base/catalog_media';
+@import 'base/footer_media';

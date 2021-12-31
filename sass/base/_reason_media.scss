@@ -1,0 +1,28 @@
+@media (max-width: 767px) {
+    .reason {
+        padding: 40px 0 45px 0;
+        &__wrapper {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-top: 5px;
+        }
+        &__item {
+            width: 500px;
+            margin-top: 30px;
+        }
+        &__title {
+            margin-top: 5px;
+        }
+        &__descr {
+            margin-top: 5px;
+        }
+    }
+}
+@media (max-width: 767px) {
+    .reason {
+        &__item {
+            width: 300px;
+        }
+    }
+}

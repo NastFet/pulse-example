@@ -1,0 +1,25 @@
+@media (max-width: 992px) {
+    .reviews {
+        &__item {
+            padding: 25px 35px;
+        }
+    }
+}
+@media (max-width: 767px) {
+    .reviews {
+        &__item {
+            flex-direction: column;
+            align-items: center;
+        }
+        &__descr {
+            padding-left: 0px;
+            text-align: justify;
+        }
+        &__name{
+            text-align: center;
+        }
+        &__marathon{
+            text-align: center;
+        }
+    }
+}

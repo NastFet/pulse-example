@@ -1,0 +1,15 @@
+@media (max-width: 767px) {
+    .consultation {
+        min-height: 600px;
+        padding: 50px 0 40px 0;
+    }
+}
+@media (max-width: 575px) {
+    .consultation {
+        min-height: 410px;
+        padding: 30px 0 30px 0;
+        &__descr {
+            display: none;
+        }
+    }
+}

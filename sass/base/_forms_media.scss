@@ -1,0 +1,22 @@
+@media (max-width: 992px) {
+    .title_left {
+        text-align: center;
+    }
+    .feed-form {
+        margin: 0 auto;
+        margin-top: 30px;
+        align-items: center;
+    }
+    .consultation {
+        &__descr {
+            text-align: center;
+        }
+    }
+}
+@media (max-width: 575px) {
+    .feed-form {
+        margin: 0 auto;
+        margin-top: 30px;
+        align-items: center;
+    }
+}
